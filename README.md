@@ -9,7 +9,7 @@
 
 ### Clases
 
-1. Parque
+### 1. Parque
 
 Atributos:
 - Private String nombre
@@ -32,7 +32,7 @@ Métodos:
 - Public void eliminarVisitante(int codigoEntrada)
 - Public void mostrarReporte()
 
-2. Punto de Acceso
+### 2. Punto de Acceso
 
 Atributos:
 - Private int codigo
@@ -48,7 +48,7 @@ Métodos:
 - Public void setEstado(boolean estado)
 - Public String informacion()
 
-3. Visitante
+### 3. Visitante
 
 Atributos:
 - Private int codigoEntrada
@@ -66,7 +66,7 @@ Métodos:
 - Public void actualizarInformacion(String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
 - Public String informacion()
 
-4. Main
+### 4. Main
 
 Atributos:
 - Private Scanner scanner
