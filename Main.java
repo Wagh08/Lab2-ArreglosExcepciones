@@ -8,6 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        crearNuevoParque();
+
         int opcion;
 
         do {
@@ -105,7 +107,7 @@ public class Main {
 
     private static void mostrarMenu() {
         System.out.println(
-                "\n========== PARQUE UNIVERSITARIO =========="
+                "\n========== PARQUE UVG =========="
         );
         System.out.println("1. Nuevo parque");
         System.out.println("2. Habilitar punto de acceso");
