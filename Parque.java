@@ -335,4 +335,14 @@ public class Parque {
             System.out.println("Fin del reporte.");
         }
     }
+
+    public boolean hayEspacioParaPuntoDeAcceso() {
+        for (PuntoDeAcceso punto : puntosDeAcceso) {
+            if (punto == null) {
+                return true;
+            }
+        }
+
+    return false;
+}
 }
