@@ -62,7 +62,7 @@ Atributos:
 Métodos:
 - Public Visitante(int codigoEntrada, String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
 - Public int getCodigoEntrada()
-- Publuc void validarDatos(String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
+- Private void validarDatos(String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
 - Public int getEdad()
 - Public int getAtraccionesVisitadas()
 - Public int getPuntosAcumulados()
@@ -72,8 +72,8 @@ Métodos:
 ### 4. Main
 
 Atributos:
-- Private Scanner scanner
-- Private Parque parqueActual
+- Private static Scanner scanner
+- Private static Parque parqueActual
 
 Métodos:
 - Public static void main(String[] args)
