@@ -31,6 +31,7 @@ Métodos:
 - Public void modificarVisitante(int codigoEntrada, String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
 - Public void eliminarVisitante(int codigoEntrada)
 - Public void mostrarReporte()
+- Public boolean hayEspacioParaPuntoDeAcceso()
 
 ### 2. Punto de Acceso
 
@@ -47,6 +48,7 @@ Métodos:
 - Public void setCapacidadMaximaPorHora(int capacidadMaximaPorHora)
 - Public void setEstado(boolean estado)
 - Public String informacion()
+- Private boolean esTextoValido(String texto)
 
 ### 3. Visitante
 
@@ -60,6 +62,7 @@ Atributos:
 Métodos:
 - Public Visitante(int codigoEntrada, String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
 - Public int getCodigoEntrada()
+- Publuc void validarDatos(String nombre, int edad, int atraccionesVisitadas, int puntosAcumulados)
 - Public int getEdad()
 - Public int getAtraccionesVisitadas()
 - Public int getPuntosAcumulados()
@@ -73,7 +76,24 @@ Atributos:
 - Private Parque parqueActual
 
 Métodos:
-- Public main(String[] args)
+- Public static void main(String[] args)
+- Private static void mostrarMenu()
+- Private static boolean verificarParque()
+- Private static void crearNuevoParque()
+- Private static void habilitarPuntoDeAcceso()
+- Private static void consultarPuntoDeAcceso()
+- Private static void modificarPuntoDeAcceso()
+- Private static void cerrarPuntoDeAcceso()
+- Private static void registrarVisitante()
+- Private static void buscarVisitante()
+- Private static void modificarVisitante()
+- Private static void eliminarVisitante()
+- Private static int leerEntero(String mensaje)
+- Private static int leerEnteroPositivo(String mensaje)
+- Private static int leerEnteroNoNegativo(String mensaje)
+- Private static int leerPosicion(String mensaje)
+- Private static String leerSoloLetras(String mensaje)
+- Private static boolean leerEstado()
 
 Se utilizará un arreglo básico para la propiedad: Puntos de Acceso, este contará con un máximo de 5 puntos de acceso, que tendrán valores de null si no contienen un un objeto de clase Punto de Acceso. 
 
